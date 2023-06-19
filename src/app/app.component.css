@@ -1,44 +1,192 @@
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #cfe3f9;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #ECECEC;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.navbar a {
+  display: block;
+  padding: 7px 7px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.navbar a:hover {
+  background: #3f3f3f;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 90vh !important;
+  background: url(https://i02.appmifile.com/mi-com-product/fly-birds/poco-f5/pc/c7588d55be8683d4a9e5dc17dc25e90c.jpg?f=webp) no-repeat center;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 120px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #000000;
+  padding: 0 100px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 20px;
+  border: 2px solid #FFBC09;
+  color: #fff;
+  text-decoration: none;
+  background: #FFBC09;
+}
+
+.btn:hover {
+  background: none;
   
-  .content {
+}
+
+.btn-home {
+  display: flex;
+}
+
+.btn-home a {
+  margin: 0 50px;
+}
+
+.content {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sau {
+  padding: 0px;
+  background: #B8E0FF
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background: #3CAAFF;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+  margin: 2rem;   
+}
+
+.box-container .box i {
+  height: 5rem;
+  width: 5rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.box-container .box h4 {
+  font-size: 20px;
+  color: #ffffff;
+
+}
+
+.box-container .box p {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.about {
+  margin-top: auto;
+  height: 75vh;
+  background: #f5f5dc;
+}
+
+.price {
+  height: 139vh;
+  background: url(https://i.blogs.es/002280/img_1504-en-tamano-grande/1366_2000.jpeg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.contact {
+  padding-top: 20px;
+  height: 40vh;
+  background: #ffffff;
+  padding-bottom: 0;
+}
+
+@media (min-width: 900px) {
+  .title {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  
+
+  .navbar{
     display: flex;
   }
-  
-  .profile {
-    flex-basis: 30%;
-    text-align: center;
-  }
-  
-  .profile img {
-    width: 200px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .biography {
-    flex-basis: 70%;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
 
-  footer {
-    text-align: center;
-    margin-top: 100px;
-    background: #F7CACD;
-
-  }
- #logotipos{
-    font-size: 14px;
-    margin-top: 10%;
-  }
+}
+.sau {
+  height: 175vh;
+}
